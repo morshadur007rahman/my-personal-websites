@@ -6,10 +6,12 @@ body{
     width: 200px;
     height: 190px;
    border-radius: 10px;
-
+   padding: 10px 20px;
+ 
 }
 .dim{
     color: red;
+    
 }
 .width-half{
     width: 40%;
@@ -20,6 +22,7 @@ body{
 .top-banner{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
+   
 }
 section{
     height: 500px;
@@ -34,4 +37,51 @@ section{
     padding: 10px 20px;
    border-radius: 5px;
    color: white;
+   
+}
+.width-full{
+    text-align: center;
+}
+.full-banner{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.full-banners img{
+    width: 200px;
+    height: 190px;
+   border-radius: 10px;
+   float: left;
+   align-items: center;
+   justify-content: center;
+   padding-left: 10%;
+   
+
+    
+}
+.alu-baji{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+.dim-baji{
+   
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+   border-radius: 5px;
+   
+    
+}
+.ful-mala{
+    background-color: tomato;
+    font-weight: bold;
+    padding: 20px 30px;
+    text-decoration: none;
+    border: 10px;
+    
+    color: white;
+}
+#dim{
+    text-align: center;
 }
